@@ -1,5 +1,7 @@
 # esgi-react-template
 
+Template folder for creating websites using the React library.
+
 ## Docker Compose service startup
 
 *Starts the services listed in the [docker-compose.yaml](./docker-compose.yaml) file.*
