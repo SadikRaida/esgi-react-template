@@ -2,7 +2,12 @@ import eslint from "vite-plugin-eslint";
 
 export default {
   "plugins": [
-    eslint()
+    eslint({
+      "include": [
+        "sources/**/*.jsx",
+        "sources/**/*.js"
+      ]
+    })
   ],
   "server": {
     "port": 8000,
