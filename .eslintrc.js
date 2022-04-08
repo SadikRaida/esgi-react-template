@@ -602,10 +602,7 @@ module.exports = {
       "error"
     ],
     "require-atomic-updates": [
-      "error",
-      {
-        "allowProperties": true
-      }
+      "error"
     ],
     "use-isnan": [
       "error",
@@ -988,9 +985,6 @@ module.exports = {
       "error"
     ],
     "prefer-numeric-literals": [
-      "error"
-    ],
-    "prefer-object-has-own": [
       "error"
     ],
     "prefer-object-spread": [
